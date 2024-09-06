@@ -1,0 +1,308 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #34495e;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-group {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.language-select {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn .flag-icon {
+    margin-right: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.language-select:hover .dropdown-content {
+    display: block;
+}
+
+.language-select:hover .dropbtn {
+    background-color: #2980b9;
+}
+
+.flag-icon {
+    display: inline-block;
+    width: 1.33333333em;
+    height: 1em;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.flag-icon-us {background-image: url(https://flagicons.lipis.dev/flags/4x3/us.svg);}
+.flag-icon-fr {background-image: url(https://flagicons.lipis.dev/flags/4x3/fr.svg);}
+.flag-icon-vn {background-image: url(https://flagicons.lipis.dev/flags/4x3/vn.svg);}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    margin-right: 20px;
+}
+
+.landing-content, #about {
+    max-width: 1200px;  /* Doubled from 600px */
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Remove any max-width constraints on paragraphs */
+.landing-content p, #about p {
+    margin-bottom: 15px;  /* Keeps some space between paragraphs */
+}
+
+/* Adjust the meme image if needed */
+.meme-image {
+    max-width: 80%;  /* This keeps the image from becoming too large */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+#home h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#about-author {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.author-image {
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 50%;
+}
+
+.author-bio {
+    overflow: hidden;
+}
+
+.author-bio p {
+    margin-bottom: 15px;
+}
+
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.author-image {
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 50%;
+}
+
+.author-bio {
+    overflow: hidden;
+}
+
+.author-bio p {
+    margin-bottom: 15px;
+}
+
+.meme-image {
+    max-width: 80%;  /* This keeps the image from becoming too large */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.learning-steps {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.learning-steps h3 {
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+.learning-steps h4 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+.learning-steps ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.learning-steps p {
+    margin-bottom: 15px;
+}
+
+/* Find the .landing-content class and update it like this */
+.landing-content {
+    max-width: 1000px; /* Increase from the previous value, which was likely around 800px */
+    margin: 0 auto;
+    padding: 20px 40px; /* Increase side padding for better readability on smaller screens */
+}
+
+/* Also, let's adjust the text alignment for better readability */
+.learning-steps p, .learning-steps li {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+/* Ensure the body doesn't have any unexpected margins */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+footer {
+    width: 100%;
+    background-color: #4a4a4a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+/* Remove any position: fixed or absolute from the footer */
+
+.meme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.meme-image {
+    max-width: 95%;  /* Adjust this value as needed */
+    height: auto;
+    object-fit: contain;
+}
+
+.meme-image:first-child {
+    margin-right: 1cm;  /* This adds approximately 1cm space between the images */
+}

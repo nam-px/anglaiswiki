@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnglaisWiki - Learn English</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>AnglaisWiki</h1>
+            <div class="nav-group">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#journey">Journey</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <div class="language-select">
+                    <button class="dropbtn">
+                        <span class="flag-icon flag-icon-us"></span>
+                        <span class="language-text">English</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" class="lang-option" data-lang="en"><span class="flag-icon flag-icon-us"></span> English</a>
+                        <a href="#" class="lang-option" data-lang="fr"><span class="flag-icon flag-icon-fr"></span> Français</a>
+                        <a href="#" class="lang-option" data-lang="vi"><span class="flag-icon flag-icon-vn"></span> Tiếng Việt</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2 data-translate="welcome">Welcome to AnglaisWiki</h2>
+            <div class="landing-content">
+                <p data-translate="landing_p1">With AI taking over everything, being able to communicate in the world's universal language - English, is more than just helpful, it's divinely important. Almost every major tool, resource, or conversation in the tech world is happening in English. Imagine being able to fully understand the tools shaping the future—that's what this language gives you. The world is at your fingertips with your ability to use English!</p>
+                <p data-translate="landing_p2">This website aims to guide you on a journey to master English easily and enjoyably. Our approach focuses on making the learning process painless and fun, rather than a traditional educational experience. Created by someone who did the process himself.</p>
+                
+                <!-- Add the meme image here -->
+                <div class="meme-container">
+                    <img src="images/meme_landingPage.jpg" alt="English learning meme" class="meme-image">
+                    <img src="images/meme_2.jpg" alt="Additional English learning meme" class="meme-image">
+                </div>
+                
+                <!-- New content -->
+                <div class="learning-steps">
+                    <h3 data-translate="step1_title">Step 1: Identifying Your English Level (A1-C2) and Personalizing Your Content</h3>
+                    <p data-translate="step1_content">The first step to learning English effectively is figuring out your starting point—your current level of proficiency. Why is this so important? Well, knowing your level helps you choose the right materials that are just challenging enough to push you forward without overwhelming you. The key is to find content that fits your interests, so learning becomes enjoyable and something you look forward to.</p>
+                    
+                    <h4 data-translate="how_to_identify">How to Identify Your Level:</h4>
+                    <p data-translate="level_test_intro">There are several free tools you can use to assess your English level. I recommend starting with a simple online test. Here are a few great options:</p>
+                    <ul>
+                        <li data-translate="british_council_test">British Council Level Test: Provides a quick assessment with detailed results from A1 to C2.</li>
+                        <li data-translate="cambridge_test">Cambridge English Test: A trusted source with a deep understanding of language levels.</li>
+                        <li data-translate="ef_set_test">EF SET: A longer, more comprehensive test that gives a solid evaluation of your proficiency.</li>
+                    </ul>
+                    
+                    <p data-translate="after_test">After completing one of these tests, you'll be categorized into a level from A1 (beginner) to C2 (proficient). Once you know where you stand, it's time to tailor your learning to your personal interests.</p>
+
+                    <h3 data-translate="content_suggestions">Content Suggestions for Each Level Based on Your Interests:</h3>
+
+                    <h4 data-translate="beginner_title">A1-A2: Beginner</h4>
+                    <p data-translate="beginner_content">At this stage, focus on simple, clear content. You'll want to start with easy-to-understand materials related to everyday life, but personalized to your interests so you stay engaged.</p>
+                    <ul>
+                        <li data-translate="beginner_fashion">If you love fashion and cosmetics: Try following simple blogs like Into The Gloss, or watching beauty tutorials on YouTube with subtitles, focusing on basic vocabulary (e.g., "foundation," "lipstick," "skincare").</li>
+                        <li data-translate="beginner_sports">If you're into sports: Watch Football Daily or NBA Highlights on YouTube. Look for videos that explain games or news with basic commentary.</li>
+                        <li data-translate="beginner_general">For general learners: Apps like Duolingo or Memrise are great, especially if you enjoy short, game-like lessons.</li>
+                    </ul>
+
+                    <h4 data-translate="intermediate_title">B1-B2: Intermediate</h4>
+                    <p data-translate="intermediate_content">Here, you can handle more detailed content, but you still need structure. Your aim should be to engage with media and articles in your areas of interest that challenge you a little, without being too advanced.</p>
+                    <ul>
+                        <li data-translate="intermediate_tech">For someone into technology: Follow tech YouTubers like MKBHD or read tech news on The Verge. Both platforms use a moderate level of English and cover popular topics like gadgets, AI, and tech trends.</li>
+                        <li data-translate="intermediate_realestate">Real-estate enthusiasts: Try reading articles from Real Estate Weekly or listening to podcasts like BiggerPockets Real Estate Podcast, which are full of practical terms for buying, selling, and the housing market.</li>
+                        <li data-translate="intermediate_travel">Travel lovers: Read blog posts from travel websites like Lonely Planet, and watch travel vlogs from YouTube channels like Kara and Nate or The Bucket List Family, which offer conversational language with a good mix of practical and adventurous vocabulary.</li>
+                    </ul>
+
+                    <h4 data-translate="advanced_title">C1-C2: Advanced</h4>
+                    <p data-translate="advanced_content">You're nearly fluent, so it's time to dive into complex topics and professional-level content. This is where you can start consuming English just as native speakers do—through news, books, and high-level discussions in your area of expertise.</p>
+                    <ul>
+                        <li data-translate="advanced_business">For business professionals: Reading articles on Harvard Business Review or watching keynote talks from TED on business and leadership will challenge you with advanced grammar and industry jargon.</li>
+                        <li data-translate="advanced_science">If you're into science: Read articles from Scientific American or follow channels like Kurzgesagt on YouTube. They tackle complex issues like climate change, neuroscience, and artificial intelligence with deep, thoughtful discussions.</li>
+                        <li data-translate="advanced_art">Artists and creatives: Watch interviews or read features from ArtNet or The Art Newspaper. You can also listen to podcasts like The Art History Babes for more engaging, high-level discussions on art movements and artists.</li>
+                    </ul>
+
+                    <h3 data-translate="step2_title">Step 2: The Power of Reading – Building True Comprehension</h3>
+                    <p data-translate="step2_content">Reading is one of the most powerful tools for mastering English, or any language for that matter. It goes beyond vocabulary—it helps you internalize grammar, understand context, and develop a natural flow of language. Think of it this way: when you read, you're not just learning words; you're absorbing the structure, nuances, and emotions behind them. It's how language comes to life, and it's what will take you from basic communication to deep comprehension.</p>
+
+                    <h4 data-translate="why_reading_matters">Why Reading Matters:</h4>
+                    <ol>
+                        <li>
+                            <strong data-translate="exposure_title">Exposure to Natural Sentence Structures</strong>
+                            <p data-translate="exposure_content">Reading exposes you to real-world sentence structures that you wouldn't find in traditional language lessons. When you read, you see how native speakers use the language in a fluid, natural way. It helps you understand how words and phrases fit together, which is crucial for sounding natural when you speak.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="context_title">Context and Comprehension</strong>
+                            <p data-translate="context_content">Words are nothing without context. Reading gives you the context you need to fully grasp new vocabulary. Instead of memorizing isolated words, you see them in action, within a story or article that gives them meaning.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="engagement_title">Active Engagement with the Language</strong>
+                            <p data-translate="engagement_content">When you read, you're actively engaging with the language. Your mind is constantly working—guessing the meaning of new words, visualizing the story, and thinking about what's coming next. This active engagement makes the learning process more memorable and enjoyable.</p>
+                        </li>
+                    </ol>
+
+                    <h4 data-translate="practical_steps">Practical Steps to Start Reading:</h4>
+                    <ol>
+                        <li>
+                            <strong data-translate="choose_level">Choose the Right Level</strong>
+                            <p data-translate="choose_level_content">Don't jump into complex texts too early. Start with material that is slightly above your comfort zone, but still manageable. For beginners, graded readers (simplified books) or children's books can be an excellent starting point. As you progress, move on to newspapers, blogs, and novels.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="personalize_reading">Personalize Your Reading</strong>
+                            <p data-translate="personalize_reading_content">Find content that resonates with your interests. If you're into fashion, read blogs or magazines like Vogue. If you're passionate about business, read articles from Forbes or Harvard Business Review. The key is to find material that excites you, so learning feels like less of a chore.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="read_daily">Read Daily</strong>
+                            <p data-translate="read_daily_content">Consistency is key. Even if it's just 10-15 minutes a day, reading daily will build your language skills over time. Make it a habit, and stick to it.</p>
+                        </li>
+                    </ol>
+
+                    <p data-translate="reading_conclusion">That's the gist. If you understand what we tried to tell you before. You hold the key to mastering not just English, but any kind of languages you want to learn. A few more practical notes can help you get start right away:</p>
+
+                    <h3 data-translate="practical_notes_title">Practical Notes for Getting Started</h3>
+                    <ol>
+                        <li>
+                            <strong data-translate="note1_title">1. Start with Comprehensible Input in Your Field</strong>
+                            <p><strong data-translate="note1_idea">The Idea:</strong></p>
+                            <p data-translate="note1_idea_content">You need to expose yourself to English that's just a bit harder than your current level (Krashen calls it i+1), especially in your area of work.</p>
+                            <p><strong data-translate="note1_example">Real-Life Example:</strong></p>
+                            <p data-translate="note1_example_content">Let's say you work in digital marketing. You can start by watching beginner-level webinars on YouTube by Neil Patel, who speaks clearly and slowly. Then gradually, move on to slightly more advanced talks on marketing strategies. Don't get stuck on every word—just try to get the main idea. The goal is to get your brain used to the kind of English you'll need at work.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="note2_title">2. Focus on Meaning, Not Form</strong>
+                            <p><strong data-translate="note2_idea">The Idea:</strong></p>
+                            <p data-translate="note2_idea_content">Forget about perfect grammar for now. You'll absorb the rules naturally by focusing on what people are saying, not how they're saying it.</p>
+                            <p><strong data-translate="note2_example">Real-Life Example:</strong></p>
+                            <p data-translate="note2_example_content">Imagine you're watching a TED Talk on leadership by Simon Sinek. Instead of pausing every time you don't understand a phrase, just keep going and focus on the main message. What is he trying to say? What examples does he give? Later, you can look up specific words, but for now, the main focus is understanding and enjoying the content.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="note3_title">3. Minimize Anxiety and Maximize Enjoyment (The Affective Filter)</strong>
+                            <p><strong data-translate="note3_idea">The Idea:</strong></p>
+                            <p data-translate="note3_idea_content">If you're stressed out or feeling pressured, your brain literally shuts down when it comes to learning. So, keep it chill.</p>
+                            <p><strong data-translate="note3_example">Real-Life Example:</strong></p>
+                            <p data-translate="note3_example_content">You're nervous about practicing English in a work setting, but instead of jumping into a formal business call, try an English social group online. Apps like Meetup have relaxed, topic-based English conversation groups where no one cares if you make mistakes. This builds confidence in a low-stress environment. You could chat about hobbies, life, or movies before diving into business-related conversations.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="note4_title">4. Produce Language Naturally Through Output</strong>
+                            <p><strong data-translate="note4_idea">The Idea:</strong></p>
+                            <p data-translate="note4_idea_content">Once you're absorbing enough input, you'll naturally start to speak and write without forcing it. Don't rush it—let it flow.</p>
+                            <p><strong data-translate="note4_example">Real-Life Example:</strong></p>
+                            <p data-translate="note4_example_content">You've been following industry podcasts and reading articles, and now you want to start writing emails in English at work. Start small: respond to your colleagues in short phrases in English. For example, if someone asks for your opinion, reply with "I agree" or "I think we can improve it this way." Over time, increase the length and complexity of your sentences. You can also ask to lead short parts of meetings, like presenting a project update.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="note5_title">5. Focus on Real Communication (Input Hypothesis)</strong>
+                            <p><strong data-translate="note5_idea">The Idea:</strong></p>
+                            <p data-translate="note5_idea_content">You don't learn a language by memorizing grammar rules—you learn by using it in real situations. Engage with English as it's used in actual communication.</p>
+                            <p><strong data-translate="note5_example">Real-Life Example:</strong></p>
+                            <p data-translate="note5_example_content">Set your phone, laptop, and work software to English. This simple tweak immerses you in the language every day. For instance, when using software like Trello or Slack for work, you'll automatically practice reading and writing in English. If your colleagues speak English, try switching to English in your conversations and emails whenever possible, even for small tasks.</p>
+                        </li>
+                        <li>
+                            <strong data-translate="note6_title">6. Monitor Your Progress (But Don't Overdo It)</strong>
+                            <p><strong data-translate="note6_idea">The Idea:</strong></p>
+                            <p data-translate="note6_idea_content">Track your progress, but don't obsess over it. The goal is natural growth, not perfection.</p>
+                            <p><strong data-translate="note6_example">Real-Life Example:</strong></p>
+                            <p data-translate="note6_example_content">Use an app like Anki to create a deck of key phrases or technical terms you've learned in English. Set it up to remind you daily, so you're reviewing these terms without it feeling like hard study. Every few weeks, check how much faster you can recall or use these phrases. Maybe after a month, you'll notice that writing an email in English takes you half the time it used to. Celebrate that progress!</p>
+                        </li>
+                    </ol>
+
+                    <p data-translate="conclusion">There you have it. A laid-back, real-world way to learn English that works. By focusing on input, not stressing about mistakes, and using English in meaningful ways, you'll naturally improve your skills. Krashen's method is about making the language part of your life, not something separate and stressful. So start today, little by little, and you'll be amazed at how much more confident you'll feel using English in your everyday work. Keep going—you're closer than you think!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey">
+            <h2 data-translate="journey">Your English Learning Journey</h2>
+            <!-- Add content for the journey section here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AnglaisWiki. Created by Nam-px. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
